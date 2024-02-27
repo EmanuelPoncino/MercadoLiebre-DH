@@ -97,13 +97,14 @@ body {
 }
 .art:hover {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
-.art:hover .art__nombre-articulo {
+.art__nombre-articulo {
   display: flex;
-}
+}}
+
 .section__articulos {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-evenly;
 }
 .art__img {
@@ -230,7 +231,7 @@ body {
   }
 
   .art {
-    width: 22%;
+    width: 20%;
   }
 
   .footer__flex {

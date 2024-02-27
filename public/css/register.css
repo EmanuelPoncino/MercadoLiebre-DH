@@ -7,7 +7,7 @@
 
 /*-------------------------------------------------------------MAIN----------------------------------------------------------*/
 
-.formulario__cabecera {
+.formulario__titulo {
     margin-bottom: 20px;
 }
 .formulario {
@@ -56,4 +56,15 @@
 }
 .formulario__boton:hover {
     background-color: #0022AA;
+}
+
+footer{
+    background-color: var(--blanco);
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
