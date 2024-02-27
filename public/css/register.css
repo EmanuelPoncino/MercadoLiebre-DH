@@ -6,6 +6,12 @@
 }
 
 /*-------------------------------------------------------------MAIN----------------------------------------------------------*/
+.main{
+text-align: center;
+margin: 0 auto;
+width: 100vw;
+margin-bottom: 120px;
+}
 
 .formulario__titulo {
     margin-bottom: 20px;
@@ -62,7 +68,7 @@ footer{
     background-color: var(--blanco);
     text-align: center;
     padding: 25px;
-    margin-top: 20px;
+    margin-top: 50.px;
     position: fixed;
     bottom: 0;
     right: 0;

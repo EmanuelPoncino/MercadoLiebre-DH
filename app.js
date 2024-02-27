@@ -15,4 +15,5 @@ app.get("/login", (req, res) => {
   res.sendFile(path.resolve(__dirname, "./views/login.html"));
 });
 
-app.listen(5500, () => console.log("servidor corriendo en el puerto 5500"));
+const port = process.env.PORT || 5500;
+app.listen(port, () => console.log("servidor corriendo en el puerto 5500"));
