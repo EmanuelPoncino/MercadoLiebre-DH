@@ -17,4 +17,4 @@ app.get("/login", (req, res) => {
 });
 
 
-app.listen(port, () => console.log("servidor corriendo en el puerto 5500"));
+app.listen(port, () => console.log(`Servidor corriendo en el puerto ${port}`));
